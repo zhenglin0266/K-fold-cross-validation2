@@ -1,1 +1,2 @@
-# K-fold-cross-validation2
+Write a function CVLoess(x, y, h, k) that takes in a vector x of predictor variables, a vector y of (corresponding) responses, a vector h of possible bandwidths, and a number k of folds, and computes the k-fold cross-validation estimate for expected prediction error for local
+linear regression for each of the bandwidths in h. Instead of choosing the folds at random, choose them in a regular way as follows: assuming that x1 \leq ,\cdots, \leq xn, then the first fold is indexed by {1, k+1, 2k+1, 3k+1, ...}, the second fold by {2, k+2, 2k+2, 3k+2,...}, etc. Test the function on the synthetic dataset generated as in the Part 10 code.
